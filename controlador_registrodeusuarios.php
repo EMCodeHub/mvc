@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['nombre']) && isset($_P
 
 //Comentario nuevo8
 
-//Comentario nuevo9
+//Comentario nuevo90
 
 
     if (agregarUsuario($nombre, $email, $contrasena)) {
