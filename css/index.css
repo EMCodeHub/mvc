@@ -1,0 +1,102 @@
+
+/*TABLA DE NOTICIAS*/
+
+.titulonoticias{
+
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin-top: 50px;
+
+
+}
+
+.noticiastable {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.noticiastable th, .noticiastable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.noticiastable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.noticiastable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.noticiastable tr:hover {
+    background-color: #ddd;
+}
+
+
+
+/*FORMULARIO LOGIN*/
+
+
+ /* Estilos para el contenedor del formulario */
+ .formulariologin {
+    display: flex;
+    justify-content: flex-start; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    flex-direction: column;
+    
+}
+
+/* Estilos para el formulario */
+.formulariologin form {
+    width: 300px; /* Ancho del formulario */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo */
+}
+
+/* Estilos para los campos de entrada */
+.formulariologin input[type="email"],
+.formulariologin input[type="password"],
+.formulariologin input[type="text"] {
+    width: 70%; /* Ancho completo */
+    margin-bottom: 10px; /* Espaciado inferior */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 3px; /* Bordes redondeados */
+}
+
+/* Estilos para el botón de enviar */
+.formulariologin button[type="submit"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 3px; /* Bordes redondeados */
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    cursor: pointer; /* Cursor de puntero */
+}
+
+/* Estilos para el enlace de registro */
+.formulariologin a {
+    display: block; /* Mostrar como bloque */
+    text-align: center; /* Centrar texto */
+    margin-top: 10px; /* Espaciado superior */
+    text-decoration: none; /* Sin decoración de texto */
+    color: #007bff; /* Color de texto */
+}
+
+
+.inputsformulario{
+
+
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    flex-direction: column;
+
+
+}
