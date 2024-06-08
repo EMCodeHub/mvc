@@ -10,19 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['nombre']) && isset($_P
 
 
     // Agregar el nuevo usuario a la base de datos utilizando la función del modelo_registro.php
-//Comentario nuevo
-//Comentario nuevo2g
-//Comentario nuevo3
-//Comentario nuevo4
-//Comentario nuevo5
-//Comentario nuevo6
 
-
-//Comentario nuevo7
-
-//Comentario nuevo8
-
-//Comentario nuevo90
 
 
     if (agregarUsuario($nombre, $email, $contrasena)) {

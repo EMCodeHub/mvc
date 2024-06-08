@@ -15,7 +15,7 @@
 
     <div class="titulonoticias">
 
-    <h1>Holaaaaaa</h1>
+  
 
         <h1>Registro</h1>
         </div>

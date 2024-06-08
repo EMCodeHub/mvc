@@ -2,7 +2,7 @@
 session_start(); // Iniciar sesión
 
 
-//comentario nuevoo
+
 
 include 'model_index.php';
 
